@@ -89,3 +89,16 @@
   font-size: 16px;
   color: #eeeeee;
 }
+.frequent {
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  margin-left: -270px;
+}
+.frequent a {
+  margin: 0 8px;
+  color: #eeeeee;
+}
+.frequent a:hover {
+  color: #e9b9d1;
+}
