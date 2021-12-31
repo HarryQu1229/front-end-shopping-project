@@ -291,3 +291,28 @@
   font-size: 14px;
   margin-bottom: 3px;
 }
+.copyright-mod {
+  position: relative;
+  padding-top: 20px;
+}
+.copyright-mod .links {
+  position: absolute;
+  left: 50%;
+  margin-bottom: 15px;
+  margin-left: -328.39px;
+}
+.copyright-mod .links ul li {
+  float: left;
+}
+.copyright-mod .links ul li:nth-child(2n) {
+  width: 1px;
+  height: 15px;
+  background-color: #666;
+  margin: 5px 6px 0;
+}
+.copyright-mod .copyright {
+  position: absolute;
+  top: 58px;
+  left: 50%;
+  margin-left: -375px;
+}
