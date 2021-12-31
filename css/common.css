@@ -1,4 +1,49 @@
+/* declare iconfont */
+@font-face {
+  font-family: "IcoFont";
+  font-weight: normal;
+  font-style: "Regular";
+  src: url("../fonts/icofont.woff2") format("woff2"),
+    url("../fonts/icofont.woff") format("woff");
+}
+
 /* main area */
 .mainarea {
-  width: 1200px;
+  width: 1500px;
+  margin: auto;
+}
+
+.left-float {
+  float: left;
+}
+.right-float {
+  float: right;
+}
+.style_orange {
+  color: chocolate;
+}
+
+/* shortcut navigation section */
+.shortcut {
+  height: 40px;
+  line-height: 40px;
+  background-color: #f1f1f1;
+}
+
+.shortcut li {
+  float: left;
+}
+
+/* create | separators in the navigation */
+.shortcut .right-float ul li:nth-child(2n) {
+  width: 1px;
+  height: 17px;
+  background-color: #666;
+  margin: 12px 18px 0;
+}
+
+.options::after {
+  content: "\eab2";
+  font-family: "IcoFont";
+  margin-left: 4px;
 }
