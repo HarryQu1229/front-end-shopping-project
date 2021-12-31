@@ -27,7 +27,7 @@
 .shortcut {
   height: 40px;
   line-height: 40px;
-  background-color: #f1f1f1;
+  background-color: #eeeeee;
 }
 .shortcut li {
   float: left;
@@ -52,14 +52,40 @@
 }
 .logo {
   position: absolute;
-  top: 30px;
-  width: 294px;
-  height: 106px;
+  top: 50%;
+  margin-top: -50.5px;
+  width: 229px;
+  height: 101px;
 }
 .logo a {
   display: block;
-  width: 294px;
-  height: 106px;
+  width: 229px;
+  height: 101px;
   background: url("../images/logo.png") no-repeat;
   font-size: 0;
+}
+.search {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -270px;
+  margin-top: -30px;
+  width: 560px;
+  height: 60px;
+  border: 2px solid #00adb5;
+}
+.search .searchbar {
+  float: left;
+  padding-right: 10px;
+  width: 85%;
+  height: 100%;
+  text-indent: 0.5rem;
+}
+.search button {
+  float: left;
+  height: 100%;
+  width: 15%;
+  background-color: #00adb5;
+  font-size: 16px;
+  color: #eeeeee;
 }
