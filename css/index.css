@@ -1,0 +1,48 @@
+.main {
+  width: 1261px;
+  height: 455px;
+  margin-left: 239px;
+  margin-top: 10px;
+}
+.focus {
+  position: relative;
+  float: left;
+  width: 926px;
+  height: 100%;
+}
+.newsflash {
+  float: right;
+  width: 330px;
+  height: 100%;
+  background-color: pink;
+}
+.focus::before {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  padding-left: 2px;
+  margin-top: -15px;
+  content: "\eab5";
+  font-family: "IcoFont";
+  font-size: 30px;
+  color: #eeeeee;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  cursor: pointer;
+}
+.focus::after {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  padding-right: 2px;
+  margin-top: -15px;
+  content: "\eab8";
+  font-family: "IcoFont";
+  font-size: 30px;
+  color: #eeeeee;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  cursor: pointer;
+}
