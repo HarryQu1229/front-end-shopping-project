@@ -102,3 +102,39 @@
 .frequent a:hover {
   color: #e9b9d1;
 }
+.shop-cart {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  margin-top: -28px;
+  width: 150px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 14px;
+  text-align: center;
+  color: #eeeeee;
+  border: 1px solid #eeeeee;
+  background-color: #393e46;
+}
+.shop-cart::before {
+  content: "\ec48";
+  font-family: "IcoFont";
+  margin-left: 2px;
+  color: #dea01e;
+  font-size: 17px;
+}
+.shop-cart::after {
+  content: "\eab8";
+  font-family: "IcoFont";
+  font-size: 16px;
+}
+.shop-items {
+  position: absolute;
+  top: 5px;
+  left: 122px;
+  height: 16px;
+  line-height: 16px;
+  background-color: #dea01e;
+  padding: 0 5px;
+  border-radius: 8px 8px 8px 0;
+}
