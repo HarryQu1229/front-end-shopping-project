@@ -29,11 +29,9 @@
   line-height: 40px;
   background-color: #f1f1f1;
 }
-
 .shortcut li {
   float: left;
 }
-
 /* create | separators in the navigation */
 .shortcut .right-float ul li:nth-child(2n) {
   width: 1px;
@@ -41,9 +39,27 @@
   background-color: #666;
   margin: 12px 18px 0;
 }
-
 .options::after {
   content: "\eab2";
   font-family: "IcoFont";
   margin-left: 4px;
+}
+
+/* header section */
+.header {
+  position: relative;
+  height: 120px;
+}
+.logo {
+  position: absolute;
+  top: 30px;
+  width: 294px;
+  height: 106px;
+}
+.logo a {
+  display: block;
+  width: 294px;
+  height: 106px;
+  background: url("../images/logo.png") no-repeat;
+  font-size: 0;
 }
