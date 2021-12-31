@@ -67,3 +67,7 @@ body {
 .clearfix {
   *zoom: 1;
 }
+
+body {
+  background-color: #222831;
+}
