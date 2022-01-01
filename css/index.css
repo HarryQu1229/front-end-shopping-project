@@ -10,12 +10,6 @@
   width: 926px;
   height: 100%;
 }
-.newsflash {
-  float: right;
-  width: 330px;
-  height: 100%;
-  background-color: pink;
-}
 .focus::before {
   position: absolute;
   top: 50%;
@@ -45,4 +39,128 @@
   border-bottom-left-radius: 15px;
   border-top-left-radius: 15px;
   cursor: pointer;
+}
+.newsflash {
+  float: right;
+  width: 330px;
+  height: 100%;
+}
+.news {
+  height: 165px;
+  border: 1px solid #e4e4e4;
+}
+.news-head {
+  height: 33px;
+  border-bottom: 1px dotted #e4e4e4;
+  line-height: 33px;
+  padding: 0 10px;
+  color: #eeeeee;
+}
+.news-head h5 {
+  float: left;
+  font-size: 14px;
+}
+.news-head .more {
+  float: right;
+  color: #eeeeee;
+}
+.news-head .more:hover,
+.news-body ul li a:hover {
+  color: #dea01e;
+}
+.news-head .more::after {
+  content: "\eab8";
+  font-family: "IcoFont";
+  font-size: 16px;
+}
+.news-body {
+  padding: 5px 10px 0;
+  color: #eeeeee;
+}
+.news-body ul li {
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.news-body ul li a {
+  color: #8f8e8e;
+}
+.living-service {
+  height: 209px;
+  border: 1px solid #e4e4e4;
+  border-top: 0;
+}
+.living-service ul li {
+  float: left;
+  width: 25%;
+  height: 69.5px;
+  border-right: 1px solid #e4e4e4;
+  text-align: center;
+}
+.living-service ul li:nth-child(-n + 8) {
+  border-bottom: 1px solid #e4e4e4;
+}
+.living-service ul li:nth-child(-n + 8) {
+  border-bottom: 1px solid #e4e4e4;
+}
+.living-service ul li:nth-child(4) {
+  border-right: 0;
+}
+.living-service ul li:nth-child(8) {
+  border-right: 0;
+}
+.living-service ul li:nth-child(12) {
+  border-right: 0;
+}
+.living-service ul li i {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  margin-top: 12px;
+  background: url("../images/index-icons-spritesheet.png") no-repeat;
+}
+.living-service ul li:nth-child(1) i {
+  background-position: -47px -88px;
+}
+.living-service ul li:nth-child(2) i {
+  background-position: -131px -89px;
+}
+.living-service ul li:nth-child(3) i {
+  background-position: -47px -131px;
+}
+.living-service ul li:nth-child(4) i {
+  background-position: -89px -5px;
+}
+.living-service ul li:nth-child(5) i {
+  background-position: -5px -131px;
+}
+.living-service ul li:nth-child(6) i {
+  background-position: -89px -88px;
+}
+.living-service ul li:nth-child(7) i {
+  background-position: -5px -5px;
+}
+.living-service ul li:nth-child(8) i {
+  background-position: -47px -5px;
+}
+.living-service ul li:nth-child(9) i {
+  background-position: -131px -47px;
+}
+.living-service ul li:nth-child(10) i {
+  background-position: -5px -88px;
+}
+.living-service ul li:nth-child(11) i {
+  background-position: -132px -5px;
+}
+.living-service ul li:nth-child(12) i {
+  background-position: -89px -46px;
+}
+.living-service ul li p {
+  font-size: 10px;
+}
+.bargain {
+  margin-top: 5px;
 }
