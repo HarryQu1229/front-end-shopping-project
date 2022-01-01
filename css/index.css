@@ -208,11 +208,12 @@
 /* floor---landscape module */
 .box-head {
   height: 30px;
+  padding-bottom: 35px;
   border-bottom: 2px solid #00adb5;
 }
 .box-head h3 {
   float: left;
-  font-size: 18px;
+  font-size: 20px;
   color: #00adb5;
   font-weight: 400;
 }
@@ -262,9 +263,16 @@
 .col_350 {
   width: 350px;
 }
-.col_221 {
-  width: 221px;
+.col_220 {
+  width: 220px;
+  border-right: 1px solid #ccc;
 }
-.col_478 {
-  width: 478px;
+.col_541 {
+  width: 541px;
+}
+.col_159 {
+  width: 159px;
+}
+.bb {
+  border-bottom: 1px solid #ccc;
 }
