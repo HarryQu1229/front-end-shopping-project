@@ -164,3 +164,37 @@
 .bargain {
   margin-top: 5px;
 }
+
+/* suggestion module */
+.suggest {
+  height: 163px;
+  margin-top: 12px;
+}
+.suggest-head {
+  float: left;
+  height: 163px;
+  width: 239px;
+  background: url("../product_images/suggest.png") no-repeat;
+}
+.suggest-body {
+  float: left;
+}
+.suggest-body ul a {
+  float: left;
+}
+.suggest-body ul a li {
+  position: relative;
+}
+.suggest-body ul a li img {
+  width: 315px;
+  height: 163px;
+}
+.suggest-body ul a li:nth-child(-n + 3)::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  width: 1px;
+  height: 145px;
+  background-color: #ddd;
+}
