@@ -1,0 +1,39 @@
+.nav .dropdown ul li {
+  background-color: #47cdd4;
+}
+.sk-container .sk-head img {
+  width: 100%;
+}
+.sk-body ul {
+  float: left;
+  margin-top: 20px;
+}
+.sk-body ul li {
+  float: left;
+}
+.sk-body ul li:nth-child(-n + 3) {
+  margin-right: 20px;
+}
+.sk-body ul li .product {
+  width: 360px;
+  height: 450px;
+  background-color: #393e46;
+  transition-duration: 0.5s;
+}
+.sk-body ul li .product:hover {
+  border: 1px solid #dea01e;
+  cursor: pointer;
+}
+.sk-body ul li .product img {
+  width: 100%;
+}
+.sk-body ul li .product .product-desc {
+  height: 75px;
+  color: #eee;
+  margin: 10px 11px 2px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
