@@ -1,0 +1,109 @@
+.registerarea {
+  height: 552px;
+  border: 1px solid #393e46;
+  margin-top: 20px;
+  background-color: #eee;
+}
+.registerarea h3 {
+  height: 42px;
+  background-color: #393e46;
+  color: #eee;
+  line-height: 42px;
+  text-indent: 1rem;
+}
+.to-login {
+  float: right;
+  height: 100%;
+  padding: 0px 20px;
+}
+.to-login a:hover {
+  color: #dea01e;
+}
+.register-form {
+  width: 900px;
+  margin: 50px auto;
+}
+.register-form ul li {
+  margin-bottom: 30px;
+}
+.register-form ul li {
+  margin-bottom: 30px;
+}
+.register-form ul li:nth-child(3) {
+  margin-bottom: 0px;
+}
+.register-form ul li label {
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+}
+.register-form ul li input[type="text"],
+.register-form ul li input[type="password"] {
+  width: 242px;
+  height: 37px;
+  border: 1px solid #eee;
+  text-indent: 8px;
+  margin-left: 10px;
+}
+.register-form ul li span {
+  color: red;
+  font-size: 14px;
+  margin-left: 30px;
+}
+.register-form ul li span .error,
+.register-form ul li span .success {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("../images/close.png") no-repeat;
+  vertical-align: middle;
+  margin-top: -2px;
+}
+.register-form ul li span .success {
+  background: url("../images/checked.png") no-repeat;
+}
+.register-form ul li .success-msg {
+  color: green;
+}
+.register-form ul .password-strength {
+  font-size: 14px;
+  padding-left: 57px;
+  margin-top: 10px;
+}
+.register-form ul .password-strength i {
+  padding: 0 12px;
+  font-weight: 700;
+}
+.register-form ul .password-strength i:nth-child(-n + 2) {
+  margin-right: 2px;
+}
+.register-form ul .password-strength i:nth-child(1) {
+  background-color: #de1111;
+}
+.register-form ul .password-strength i:nth-child(2) {
+  background-color: #f79100;
+}
+.register-form ul .password-strength i:nth-child(3) {
+  background-color: #40b83f;
+}
+.register-form ul .agree {
+  padding-left: 160px;
+}
+.register-form ul .agree input {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.register-form ul .agree a {
+  color: #1ba1e6;
+}
+.register-form ul .agree a:hover {
+  color: #f79100;
+}
+.register-form ul li .submit {
+  color: #eee;
+  font-weight: 700;
+  width: 220px;
+  height: 35px;
+  margin-left: 18.5%;
+  background-color: red;
+}
