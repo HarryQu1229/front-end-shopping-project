@@ -6,39 +6,62 @@
 }
 .focus {
   position: relative;
+  overflow: hidden;
   float: left;
   width: 926px;
   height: 100%;
 }
-.focus::before {
+.focus ul {
+  width: 5000px;
+  position: absolute;
+}
+.focus ul li {
+  float: left;
+}
+.focus ol {
+  position: absolute;
+  bottom: 10px;
+  left: 45%;
+}
+.focus ol li {
+  float: left;
+  margin: 0 3px;
+  width: 13px;
+  height: 13px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.focus ol .current {
+  background-color: #fff;
+}
+.leftmore {
   position: absolute;
   top: 50%;
   left: 0px;
   padding-left: 2px;
   margin-top: -15px;
-  content: "\eab5";
-  font-family: "IcoFont";
-  font-size: 30px;
   color: #eeeeee;
   background-color: rgba(0, 0, 0, 0.3);
   border-bottom-right-radius: 15px;
   border-top-right-radius: 15px;
-  cursor: pointer;
 }
-.focus::after {
+.rightmore {
   position: absolute;
   top: 50%;
   right: 0px;
   padding-right: 2px;
   margin-top: -15px;
-  content: "\eab8";
-  font-family: "IcoFont";
-  font-size: 30px;
   color: #eeeeee;
   background-color: rgba(0, 0, 0, 0.3);
   border-bottom-left-radius: 15px;
   border-top-left-radius: 15px;
-  cursor: pointer;
+}
+.leftmore,
+.rightmore {
+  font-size: 28px;
+  display: none;
+  z-index: 999;
 }
 .newsflash {
   float: right;
