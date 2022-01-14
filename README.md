@@ -1,5 +1,5 @@
 # front-end-shopping-project
-Shopping website built in html5 and css3
+Shopping website built in html5 and css3 (and a little bit of javascript)
 
 A simple and fun website designed, developed after 1 week of learning html and css.
 
